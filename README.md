@@ -9,7 +9,7 @@ Add the following `composer.json` file:
 ```json
 {
     "require": {
-        "wc/composer-installer": "0.1.*"
+        "pta/composer-installer": "0.1.*"
     }
 }
 ```
