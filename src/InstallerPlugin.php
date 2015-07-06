@@ -1,6 +1,6 @@
 <?php 
 
-namespace Wc\Installer;
+namespace Pta\Installer;
  
 use Composer\Composer;
 use Composer\IO\IOInterface;

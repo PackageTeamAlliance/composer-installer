@@ -1,4 +1,4 @@
-<?php namespace Wc\Installer;
+<?php namespace Pta\Installer;
 
 use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
