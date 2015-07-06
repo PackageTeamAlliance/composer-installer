@@ -1,13 +1,13 @@
 {
-  "name": "wc/composer-installer",
+  "name": "pta/composer-installer",
   "description": "Module Installer for Core",
   "type": "composer-installer",
   "license": "MIT",
   "authors": [
     {
-      "name": "Westcott Courses",
+      "name": "The Package Team Alliance",
       "email": "",
-      "homepage": "https://bitbucket.org/westcottcourses/composer-installer"
+      "homepage": "https://bitbucket.org/packageteamalliance/composer-installer"
     }
   ],
   "require": {
@@ -17,14 +17,14 @@
   },
   "autoload": {
     "psr-4": {
-      "Wc\\Installer\\": "src/"
+      "Pta\\Installer\\": "src/"
     }
   },
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
     },
-    "class": "Wc\\Installer\\ModuleInstaller"
+    "class": "Pta\\Installer\\ModuleInstaller"
   },
   "minimum-stability": "dev"
 }
