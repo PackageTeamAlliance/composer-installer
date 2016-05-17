@@ -1,19 +1,18 @@
 {
   "name": "pta/composer-installer",
   "description": "Module Installer for Core",
-  "type": "composer-installer",
+  "type": "composer-plugin",
   "license": "MIT",
   "authors": [
     {
       "name": "The Package Team Alliance",
-      "email": "",
       "homepage": "https://bitbucket.org/packageteamalliance/composer-installer"
     }
   ],
   "require": {
     "php": ">=5.5.9",
     "illuminate/support": "~5.0",
-    "composer-plugin-api": "1.0.*"
+    "composer-plugin-api": "^1.0"
   },
   "autoload": {
     "psr-4": {
