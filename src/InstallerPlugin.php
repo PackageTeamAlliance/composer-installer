@@ -4,6 +4,7 @@ namespace Pta\Installer;
  
 use Composer\Composer;
 use Composer\IO\IOInterface;
+use Pta\Installer\ModuleInstaller;
 use Composer\Plugin\PluginInterface;
 
 class InstallerPlugin implements PluginInterface
